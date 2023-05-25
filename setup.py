@@ -28,8 +28,5 @@ setup(
     },
     url=REPO_URL,
     python_requires='>=3.10.6',
-    version='0.0.1',
+    version='0.1.0',
 )
-
-# https://www.freecodecamp.org/portuguese/news/como-criar-o-seu-primeiro-pacote-em-python/
-# https://setuptools.pypa.io/en/latest/userguide/entry_point.html

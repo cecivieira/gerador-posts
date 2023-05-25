@@ -20,5 +20,5 @@ Essa aplicação surgiu da necessidade de gerar textos a partir de um template, 
 1. Crie a pasta aonde os posts prontos serão armazenados: `./posts_prontos`;
 1. Execute o pacote:
     ```bash
-    (.venv) $ gerador-posts
+    (.venv) $ gerar-posts
     ```
