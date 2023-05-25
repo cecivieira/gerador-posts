@@ -23,10 +23,13 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'autogenfiles = autogenfiles.autogenfiles:AutoGenFiles',
+            'gerar-posts = gerador_posts.gerador_posts:GeradorPosts()',
         ],
     },
     url=REPO_URL,
     python_requires='>=3.10.6',
     version='0.0.1',
 )
+
+# https://www.freecodecamp.org/portuguese/news/como-criar-o-seu-primeiro-pacote-em-python/
+# https://setuptools.pypa.io/en/latest/userguide/entry_point.html
