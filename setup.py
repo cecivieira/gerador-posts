@@ -8,7 +8,7 @@ with open('README.md') as descricao:
 setup(
     author='Ana Cecília Vieira',
     author_email='cecivieira@gmail.com',
-    description='Gerador de posts baseado em templates e dados ',
+    description='Gerador de posts baseado em templates e arquivos de dados (csv e yaml).',
     zip_safe=False,
     install_requires=[
         'Jinja2==3.1.2',
@@ -28,8 +28,5 @@ setup(
     },
     url=REPO_URL,
     python_requires='>=3.10.6',
-    version='0.1.2',
+    version='0.1.3',
 )
-
-# https://www.freecodecamp.org/portuguese/news/como-criar-o-seu-primeiro-pacote-em-python/
-# https://setuptools.pypa.io/en/latest/userguide/entry_point.html
