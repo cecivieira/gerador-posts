@@ -1,5 +1,5 @@
-from tratar_dados import TratarDados
-from configuracao import Configuracao
+from .tratar_dados import TratarDados
+from .configuracao import Configuracao
 
 def GeradorPosts():
     dados = TratarDados()
