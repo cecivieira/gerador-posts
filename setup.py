@@ -28,5 +28,5 @@ setup(
     },
     url=REPO_URL,
     python_requires='>=3.10.6',
-    version='0.1.3',
+    version='0.1.4',
 )
